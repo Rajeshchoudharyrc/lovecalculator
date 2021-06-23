@@ -6,7 +6,7 @@ btn.addEventListener("click", function () {
     var n1 = document.querySelector("#n1").value;
     var n2 = document.querySelector("#n2").value;
     //Check input fields empty or not
-    if (n1 === "" && n2 === "") {
+    if (n1 === "" || n2 === "") {
         document.querySelector(".alert-danger").style.display="block";
     } else {
         var emoji;
