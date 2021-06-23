@@ -50,6 +50,7 @@ body {
   }
 
 .love-btn {
+    margin-top: 1.5rem;
     width: 100%;
     background-color : rgb(255, 0, 128);
     border-radius: 8px;
