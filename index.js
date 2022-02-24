@@ -28,21 +28,6 @@ btn.addEventListener("click", function () {
             emoji = "😍 ";
         }
         
-//         if(result > 90) {
-//             emoji = "😍 ";
-//         }
-//         else if(result > 50 && result < 90) {
-//             emoji = "😎 ";
-//         }
-//         else if (result > 20 && result < 50){
-//             emoji = "🙂 ";
-//         }
-//         else if (result > 10 && result < 20) {
-//             emoji = "😯 ";
-//         }
-//         else {
-//             emoji = "😪 ";
-//         }
 
         var couples = emoji + "<br><br> Love between " + n1 + " and " + n2;
         document.querySelector("#couples").innerHTML = couples;
